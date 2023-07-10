@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | awk '{ if (NR <= 11) print $9 }'
+ls -t | head
