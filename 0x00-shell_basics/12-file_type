@@ -1,2 +1,2 @@
 #!/bin/bash
-cat <(file -b /tmp/iamafile) | tr -d '\n'
+file /tmp/iamafile
